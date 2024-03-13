@@ -4,8 +4,6 @@ const app = express();
 
 app.use(express.json());
 
-const base_url = "http://env-2576636.proen.app.ruk-com.cloud/";
-
 // Annound where database is 
 const sequelize = new Sequelize('database','username','password' , {
   host: 'localhost' ,
